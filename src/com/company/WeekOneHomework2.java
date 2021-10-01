@@ -34,57 +34,7 @@ public class WeekOneHomework2 {
         }
 
 
-        /*for (int i = 0;i<pattern.length();i++){
-            if(pattern.charAt(i)=='*'){
-                star++;
-            }
-            for(int j = 0;j<str.length();j++){
-                if (pattern.charAt(i) == str.charAt(j)){
-                    matchWords++;
-                }
-            }
-        }
 
-        int strWithoutStar = pattern.length() - star;
-        System.out.println("star sayısı:" + star);
-        System.out.println("str starsız:" + strWithoutStar);
-        System.out.println("match:" + matchWords);
-
-        if(strWithoutStar == matchWords){
-            return true;
-        }
-        else{
-            return false;
-        }*/
-
-
-        /*int notStar = 0;
-
-
-        for (int k = 0;k<str.length();k++){
-            if (str.charAt(k)!='*'){
-                notStar++;
-
-            }
-        }
-
-        String[] strWords = new String[notStar];
-        for (int j = 0;j<str.length();j++){
-            if (str.charAt(j)=='*'){
-
-                continue;
-            }
-
-        }
-
-
-
-        int patternWords = pattern.length();
-
-        for (int i = 0;i<patternWords;i++){
-
-
-        }*/
 
     }
 
